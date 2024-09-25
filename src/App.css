@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.app{
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.quote{
+  background-color: rgb(208, 227, 228);;
+  background-size: cover;
+  width: 300px;
+  height: 320px;
+  border-radius: 10px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid rgb(22, 1, 1);
+}
+
+.quote h2{
+  font-size: 25px;
+  font-family: "Lobster Two", sans-serif;
+  
+}
+
+
+.quote small{
+  font-size: 1.5em;
+  font-family: "Dancing Script", cursive;
+}
+
+
+.btn{
+  margin-top: 5px;
+  display: block;
+  border: 2px solid rgb(22, 1, 1);
+  background: crimson;
+  padding: 10px 15px;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  transition: background 1s, color 1s;
+}
+
+.btn:hover{
+  background: white;
+  color: crimson;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
